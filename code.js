@@ -1,5 +1,3 @@
-Import data: =IMPORTRANGE("https://docs.google.com/spreadsheets/d/1CAOUkjyzOU5Ldt-pZ3hwjqrs1dt8Ad6P8FJuixbFDc4/edit#gid=1409955500","Coverage Sheet!G1180:G9749")
-
 function CheckChanges() {
   // Fetch the value
   var ValueToBeChecked = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1").getRange("E1");
